@@ -1,0 +1,760 @@
+2018-01-17T17:48:23.974111Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-17T17:48:25.786495Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2018-01-17T17:48:26.147128Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2018-01-17T17:48:26.309024Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 9eacaccb-fbae-11e7-9f2d-b8aeedb8d3f9.
+2018-01-17T17:48:26.344984Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2018-01-17T17:48:26.352525Z 1 [Note] A temporary password is generated for root@localhost: G+yos%pzY1a=
+2018-01-17T17:48:52.330621Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-17T17:48:52.330680Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-17T17:48:52.330987Z 0 [Note] MySQL (mysqld 5.7.21) starting as process 25112 ...
+2018-01-17T17:48:52.337540Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-17T17:48:52.337996Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-17T17:48:52.338263Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-17T17:48:52.338643Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-17T17:48:52.339198Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-17T17:48:52.339571Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-17T17:48:52.346605Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-17T17:48:52.352925Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-17T17:48:52.406039Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-17T17:48:52.521542Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-01-17T17:48:52.522340Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-01-17T17:48:52.643957Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-01-17T17:48:52.674436Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-01-17T17:48:52.675039Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-01-17T17:48:52.675714Z 0 [Note] InnoDB: Waiting for purge to start
+2018-01-17T17:48:52.727074Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2551749
+2018-01-17T17:48:52.727847Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Server\data\DB\data\ib_buffer_pool
+2018-01-17T17:48:52.727880Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-01-17T17:48:52.740979Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-01-17T17:48:52.741726Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-01-17T17:48:52.742396Z 0 [Note] IPv6 is available.
+2018-01-17T17:48:52.742742Z 0 [Note]   - '::' resolves to '::';
+2018-01-17T17:48:52.743069Z 0 [Note] Server socket created on IP: '::'.
+2018-01-17T17:48:52.779952Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-01-17T17:48:52.780492Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-01-17T17:48:52.805521Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180117 22:48:52
+2018-01-17T18:57:33.597255Z 2 [Warning] IP address '119.249.54.220' could not be resolved: Этот хост неизвестен. 
+2018-01-17T19:13:08.928809Z 3 [Warning] IP address '221.229.166.121' could not be resolved: Этот хост неизвестен. 
+2018-01-18T04:11:35.501635Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31978992ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-18T04:43:06.752100Z 4 [Note] Access denied for user ''@'localhost' (using password: NO)
+2018-01-18T04:44:16.477004Z 5 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-01-18T04:45:39.699654Z 6 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-18T04:46:44.105618Z 7 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-01-18T04:46:49.874203Z 8 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-18T04:47:05.323702Z 9 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-18T04:47:35.188108Z 10 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:47:42.267227Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-18T04:47:42.267294Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-18T04:47:42.267583Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 23984 ...
+2018-01-18T04:47:42.306518Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-18T04:47:42.307077Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-18T04:47:42.307398Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-18T04:47:42.307909Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-18T04:47:42.308655Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-18T04:47:42.309102Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-18T04:47:42.312538Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-18T04:47:42.319000Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-18T04:47:42.332796Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-18T04:47:42.333341Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-18T04:47:42.333822Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-18T04:47:42.535257Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-18T04:47:42.535757Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-18T04:47:42.536217Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-18T04:47:42.536563Z 0 [ERROR] Aborting
+
+2018-01-18T04:47:42.536808Z 0 [Note] Binlog end
+2018-01-18T04:47:42.537093Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-18T04:47:42.538009Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-18T04:49:10.038367Z 11 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-18T04:49:43.406621Z 12 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:49:51.303018Z 13 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-18T04:50:02.295893Z 14 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:50:05.617972Z 15 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:50:11.755342Z 16 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-01-18T04:50:19.935003Z 17 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:50:26.696940Z 18 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:51:42.718378Z 19 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-18T04:55:55.264708Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-18T04:55:55.264771Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-18T04:55:55.265012Z 0 [Note] MySQL (mysqld 5.7.21) starting as process 21156 ...
+2018-01-18T04:55:55.272485Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-18T04:55:55.272999Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-18T04:55:55.273270Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-18T04:55:55.273657Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-18T04:55:55.274222Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-18T04:55:55.274783Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-18T04:55:55.277429Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-18T04:55:55.283569Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-18T04:55:55.339996Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-18T04:55:55.349017Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2551768
+2018-01-18T04:55:55.349637Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2551777
+2018-01-18T04:55:55.350058Z 0 [Note] InnoDB: Database was not shutdown normally!
+2018-01-18T04:55:55.350389Z 0 [Note] InnoDB: Starting crash recovery.
+2018-01-18T04:55:55.727677Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-01-18T04:55:55.728163Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-01-18T04:55:55.729134Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-01-18T04:55:55.858387Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-01-18T04:55:55.877818Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-01-18T04:55:55.878402Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-01-18T04:55:55.879162Z 0 [Note] InnoDB: Waiting for purge to start
+2018-01-18T04:55:55.930174Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2551777
+2018-01-18T04:55:55.931489Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Server\data\DB\data\ib_buffer_pool
+2018-01-18T04:55:55.931652Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-01-18T04:55:55.964324Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-01-18T04:55:55.965059Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-01-18T04:55:55.965619Z 0 [Note] IPv6 is available.
+2018-01-18T04:55:55.965885Z 0 [Note]   - '::' resolves to '::';
+2018-01-18T04:55:55.966217Z 0 [Note] Server socket created on IP: '::'.
+2018-01-18T04:55:56.094077Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180118  9:55:56
+2018-01-18T04:55:56.783997Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-01-18T05:05:57.372929Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 353972ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-18T09:03:45.378751Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 14172884ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-18T10:20:38.377072Z 7 [Warning] IP address '222.186.59.197' could not be resolved: Этот хост неизвестен. 
+2018-01-18T11:26:56.937676Z 15 [Warning] IP address '182.18.8.239' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-18T11:27:19.356570Z 16 [Warning] IP address '182.18.8.239' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-18T11:27:31.319771Z 17 [Warning] IP address '182.18.8.239' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-18T11:28:28.232009Z 17 [Note] Aborted connection 17 to db: 'mysql' user: 'root' host: '182.18.8.239' (Got an error reading communication packets)
+2018-01-19T10:56:42.056850Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 83069914ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-19T15:17:07.113372Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4296502ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-19T16:22:12.646825Z 18 [Warning] IP address '60.165.208.28' has been resolved to the host name '28.208.165.60.dail.dx.gs.dynamic.163data.com.cn', which resembles IPv4-address itself.
+2018-01-19T16:22:28.987310Z 19 [Warning] IP address '60.165.208.28' has been resolved to the host name '28.208.165.60.dail.dx.gs.dynamic.163data.com.cn', which resembles IPv4-address itself.
+2018-01-19T16:25:30.626362Z 18 [Note] Aborted connection 18 to db: 'unconnected' user: 'root' host: '60.165.208.28' (Got an error reading communication packets)
+2018-01-19T16:31:44.720453Z 20 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-19T16:32:17.430653Z 21 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-19T16:32:31.937831Z 22 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-19T16:32:52.080681Z 23 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-01-19T16:34:51.280709Z 24 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-19T16:35:05.710712Z 25 [Note] Access denied for user 'ODBC'@'localhost' (using password: NO)
+2018-01-19T16:35:11.852295Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T16:35:11.858115Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T16:35:11.859402Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 16316 ...
+2018-01-19T16:35:11.902689Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T16:35:11.903183Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T16:35:11.903482Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T16:35:11.903887Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T16:35:11.904621Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T16:35:11.905064Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T16:35:11.907965Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-19T16:35:11.914702Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-19T16:35:11.928907Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T16:35:11.929415Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T16:35:11.929843Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T16:35:12.232271Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T16:35:12.232768Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T16:35:12.233324Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T16:35:12.233773Z 0 [ERROR] Aborting
+
+2018-01-19T16:35:12.234083Z 0 [Note] Binlog end
+2018-01-19T16:35:12.234386Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T16:35:12.235394Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T16:35:26.010107Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T16:35:26.010173Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T16:35:26.010411Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 10084 ...
+2018-01-19T16:35:26.018321Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T16:35:26.018850Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T16:35:26.019139Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T16:35:26.019565Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T16:35:26.020141Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T16:35:26.020565Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T16:35:26.023091Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-19T16:35:26.029746Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-19T16:35:26.043316Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T16:35:26.043832Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T16:35:26.044256Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T16:35:26.246654Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T16:35:26.247130Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T16:35:26.247544Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T16:35:26.247885Z 0 [ERROR] Aborting
+
+2018-01-19T16:35:26.248112Z 0 [Note] Binlog end
+2018-01-19T16:35:26.248365Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T16:35:26.249195Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T16:35:35.670679Z 26 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-19T16:36:36.245159Z 27 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2018-01-19T16:38:37.759249Z 28 [Warning] IP address '122.114.92.31' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-19T16:38:38.027275Z 28 [Note] Access denied for user 'mysqld'@'122.114.92.31' (using password: YES)
+2018-01-19T17:12:51.255573Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:12:51.255656Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:12:51.256172Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 17240 ...
+2018-01-19T17:12:51.287437Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:12:51.287966Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:12:51.288239Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:12:51.288645Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:12:51.289196Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:12:51.289564Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:12:51.289960Z 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2018-01-19T17:12:51.290306Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:12:51.290684Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:12:51.291237Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:12:51.291615Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:12:51.292002Z 0 [ERROR] Aborting
+
+2018-01-19T17:12:51.292251Z 0 [Note] Binlog end
+2018-01-19T17:12:51.292527Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:12:51.293451Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:13:00.614132Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:13:00.614196Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:13:00.614502Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 19420 ...
+2018-01-19T17:13:00.621939Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:13:00.622421Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:13:00.622699Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:13:00.623116Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:13:00.623669Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:13:00.624177Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:13:00.627883Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-19T17:13:00.634114Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-19T17:13:00.648468Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T17:13:00.648965Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T17:13:00.649361Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:13:00.951911Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:13:00.952431Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:13:00.952931Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:13:00.953370Z 0 [ERROR] Aborting
+
+2018-01-19T17:13:00.953701Z 0 [Note] Binlog end
+2018-01-19T17:13:00.954004Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:13:00.954959Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:16:00.038409Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:16:00.038470Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:16:00.038760Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 13288 ...
+2018-01-19T17:16:00.045309Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:16:00.045777Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:16:00.046045Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:16:00.046450Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:16:00.047007Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:16:00.047437Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:16:00.047800Z 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2018-01-19T17:16:00.048165Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:16:00.048565Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:16:00.048887Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:16:00.049260Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:16:00.049552Z 0 [ERROR] Aborting
+
+2018-01-19T17:16:00.049760Z 0 [Note] Binlog end
+2018-01-19T17:16:00.050034Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:16:00.050803Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:16:09.159854Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:16:09.159914Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:16:09.160231Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 4928 ...
+2018-01-19T17:16:09.166498Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:16:09.166914Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:16:09.167199Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:16:09.167580Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:16:09.168125Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:16:09.168481Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:16:09.172350Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-19T17:16:09.179474Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-19T17:16:09.192972Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T17:16:09.193535Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2018-01-19T17:16:09.193984Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:16:09.396347Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:16:09.396938Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:16:09.397329Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:16:09.397633Z 0 [ERROR] Aborting
+
+2018-01-19T17:16:09.397851Z 0 [Note] Binlog end
+2018-01-19T17:16:09.398116Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:16:09.398920Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:18:01.348050Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:18:01.348105Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:18:01.348369Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 12832 ...
+2018-01-19T17:18:01.355259Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:18:01.356287Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:18:01.356762Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:18:01.357233Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:18:01.357807Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:18:01.358169Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:18:01.358574Z 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2018-01-19T17:18:01.358933Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:18:01.359320Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:18:01.359647Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:18:01.360006Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:18:01.360336Z 0 [ERROR] Aborting
+
+2018-01-19T17:18:01.360578Z 0 [Note] Binlog end
+2018-01-19T17:18:01.360841Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:18:01.361644Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:18:07.535325Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:18:07.535388Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:18:07.535984Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 20184 ...
+2018-01-19T17:18:07.542980Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:18:07.543463Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:18:07.543759Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:18:07.544148Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:18:07.544701Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:18:07.545073Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:18:07.545436Z 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2018-01-19T17:18:07.545812Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:18:07.546196Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:18:07.546522Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:18:07.546882Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:18:07.547178Z 0 [ERROR] Aborting
+
+2018-01-19T17:18:07.547391Z 0 [Note] Binlog end
+2018-01-19T17:18:07.547696Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:18:07.548431Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:18:13.550743Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:18:13.550804Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:18:13.551038Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 26516 ...
+2018-01-19T17:18:13.593621Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:18:13.594158Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:18:13.594566Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:18:13.595094Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:18:13.596147Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:18:13.596800Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:18:13.599070Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-19T17:18:13.604850Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-19T17:18:13.650438Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-19T17:18:13.659251Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2859279
+2018-01-19T17:18:13.659741Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2859288
+2018-01-19T17:18:13.660132Z 0 [Note] InnoDB: Database was not shutdown normally!
+2018-01-19T17:18:13.660548Z 0 [Note] InnoDB: Starting crash recovery.
+2018-01-19T17:18:13.878199Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-01-19T17:18:13.878667Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-01-19T17:18:13.879181Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-01-19T17:18:14.090180Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-01-19T17:18:14.110001Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-01-19T17:18:14.110630Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-01-19T17:18:14.111343Z 0 [Note] InnoDB: Waiting for purge to start
+2018-01-19T17:18:14.162377Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2859288
+2018-01-19T17:18:14.163180Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Server\data\DB\data\ib_buffer_pool
+2018-01-19T17:18:14.163183Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-01-19T17:18:14.184950Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-01-19T17:18:14.272061Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: ''  port: 0  MySQL Community Server (GPL)
+2018-01-19T17:18:14.272747Z 0 [ERROR] TCP/IP, --shared-memory, or --named-pipe should be configured on NT OS
+2018-01-19T17:18:14.273269Z 0 [ERROR] Aborting
+
+2018-01-19T17:18:14.273673Z 0 [Note] Binlog end
+2018-01-19T17:18:14.274306Z 0 [Note] Shutting down plugin 'ngram'
+2018-01-19T17:18:14.274665Z 0 [Note] Shutting down plugin 'partition'
+2018-01-19T17:18:14.275145Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-01-19T17:18:14.275741Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-01-19T17:18:14.276359Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-01-19T17:18:14.277083Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-01-19T17:18:14.277399Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-01-19T17:18:14.277703Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-01-19T17:18:14.278012Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-01-19T17:18:14.278320Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-01-19T17:18:14.278638Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-01-19T17:18:14.278952Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-01-19T17:18:14.279250Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-01-19T17:18:14.279546Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-01-19T17:18:14.279842Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-01-19T17:18:14.280139Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-01-19T17:18:14.280444Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-01-19T17:18:14.280737Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-01-19T17:18:14.281131Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-01-19T17:18:14.281440Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-01-19T17:18:14.281734Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-01-19T17:18:14.282048Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-01-19T17:18:14.282341Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-01-19T17:18:14.282681Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-01-19T17:18:14.282965Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-01-19T17:18:14.283273Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-01-19T17:18:14.283644Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-01-19T17:18:14.284054Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-01-19T17:18:14.284398Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180119 22:18:14
+2018-01-19T17:18:14.284405Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-01-19T17:18:14.285036Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-01-19T17:18:14.285337Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-01-19T17:18:14.285667Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-01-19T17:18:14.285947Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-01-19T17:18:14.286234Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-01-19T17:18:14.286508Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-01-19T17:18:14.286859Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-01-19T17:18:14.287139Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-01-19T17:18:14.287411Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-01-19T17:18:14.287715Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-19T17:18:14.288087Z 0 [Note] InnoDB: Starting shutdown...
+2018-01-19T17:18:14.389147Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\Server\data\DB\data\ib_buffer_pool
+2018-01-19T17:18:14.392315Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180119 22:18:14
+2018-01-19T17:18:15.749630Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2859733
+2018-01-19T17:18:15.750382Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-01-19T17:18:15.750750Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-01-19T17:18:15.751056Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:18:15.751329Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-01-19T17:18:15.751624Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-01-19T17:18:15.752071Z 0 [Note] Shutting down plugin 'binlog'
+2018-01-19T17:18:15.753156Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-19T17:18:22.831071Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-19T17:18:22.831128Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-19T17:18:22.831348Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 22192 ...
+2018-01-19T17:18:22.839229Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-19T17:18:22.839709Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-19T17:18:22.839985Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-19T17:18:22.840372Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-19T17:18:22.840924Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-19T17:18:22.841290Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-19T17:18:22.841653Z 0 [ERROR] InnoDB: Unable to create temporary file; errno: 2
+2018-01-19T17:18:22.842004Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2018-01-19T17:18:22.842386Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2018-01-19T17:18:22.842708Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2018-01-19T17:18:22.843099Z 0 [ERROR] Failed to initialize builtin plugins.
+2018-01-19T17:18:22.843393Z 0 [ERROR] Aborting
+
+2018-01-19T17:18:22.843623Z 0 [Note] Binlog end
+2018-01-19T17:18:22.843940Z 0 [Note] Shutting down plugin 'CSV'
+2018-01-19T17:18:22.844733Z 0 [Note] mysqld: Shutdown complete
+
+2018-01-22T18:37:15.630736Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2018-01-22T18:37:15.632418Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-01-22T18:37:15.636376Z 0 [Note] MySQL (mysqld 5.7.21) starting as process 2960 ...
+2018-01-22T18:37:15.788100Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-22T18:37:15.789208Z 0 [Note] InnoDB: Uses event mutexes
+2018-01-22T18:37:15.790898Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-22T18:37:15.791510Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-22T18:37:15.794132Z 0 [Note] InnoDB: Number of pools: 1
+2018-01-22T18:37:15.795149Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-01-22T18:37:15.798955Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-01-22T18:37:15.806055Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-22T18:37:15.935575Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-22T18:37:16.425920Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-01-22T18:37:16.426557Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-01-22T18:37:16.668032Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-01-22T18:37:16.671105Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-01-22T18:37:16.671715Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-01-22T18:37:16.672446Z 0 [Note] InnoDB: Waiting for purge to start
+2018-01-22T18:37:16.739361Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2910905
+2018-01-22T18:37:16.740487Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-01-22T18:37:16.741107Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Server\data\DB\data\ib_buffer_pool
+2018-01-22T18:37:17.104949Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-01-22T18:37:17.106091Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-01-22T18:37:17.106712Z 0 [Note] IPv6 is available.
+2018-01-22T18:37:17.107009Z 0 [Note]   - '::' resolves to '::';
+2018-01-22T18:37:17.107347Z 0 [Note] Server socket created on IP: '::'.
+2018-01-22T18:37:17.465082Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180122 23:37:17
+2018-01-22T18:37:19.395981Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-01-22T18:37:19.396548Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-01-23T07:03:56.977624Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42610166ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-23T08:29:43.630812Z 2 [Warning] IP address '58.218.199.221' could not be resolved: Этот хост неизвестен. 
+2018-01-23T08:29:44.032703Z 2 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:45.135279Z 3 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:46.244646Z 4 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:47.341047Z 5 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:48.448696Z 6 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:49.554492Z 7 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:50.677942Z 8 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:51.779841Z 9 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:52.902182Z 10 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:54.012447Z 11 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:55.196138Z 12 [Note] Access denied for user 'root'@'58.218.199.221' (using password: NO)
+2018-01-23T08:29:56.304639Z 13 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:57.239574Z 14 [Note] Access denied for user 'root'@'58.218.199.221' (using password: NO)
+2018-01-23T08:29:58.050760Z 15 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:29:58.868776Z 16 [Note] Access denied for user 'root'@'58.218.199.221' (using password: NO)
+2018-01-23T08:29:59.689037Z 17 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:00.504945Z 18 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:01.325160Z 19 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:02.147055Z 20 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:02.959666Z 21 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:03.911520Z 22 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:05.099499Z 23 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:06.241390Z 24 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:10.268815Z 25 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:11.237586Z 26 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:12.188936Z 27 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:13.236740Z 28 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:14.186588Z 29 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:15.165879Z 30 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:16.177004Z 31 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T08:30:17.265422Z 32 [Note] Access denied for user 'root'@'58.218.199.221' (using password: YES)
+2018-01-23T15:24:42.897037Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24584698ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-23T18:00:26.545821Z 33 [Warning] IP address '167.88.178.43' could not be resolved: Этот хост неизвестен. 
+2018-01-23T18:00:26.764632Z 33 [Note] Access denied for user 'root'@'167.88.178.43' (using password: NO)
+2018-01-23T18:00:29.138100Z 34 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:33.346431Z 35 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:37.065196Z 36 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:41.467395Z 37 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:44.898551Z 38 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:47.489625Z 39 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:50.554615Z 40 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:54.391125Z 41 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:56.798431Z 42 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:00:59.678804Z 43 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:03.693196Z 44 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:05.907303Z 45 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:08.522161Z 46 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:11.371574Z 47 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:14.695097Z 48 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:16.650995Z 49 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:19.472760Z 50 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:22.850715Z 51 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:24.953333Z 52 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:27.453351Z 53 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:31.119303Z 54 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:33.820537Z 55 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:35.863266Z 56 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:40.264905Z 57 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:43.593060Z 58 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:45.636337Z 59 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:47.939196Z 60 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:51.382359Z 61 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:55.160960Z 62 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:01:57.319212Z 63 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:00.731500Z 64 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:04.140313Z 65 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:07.519912Z 66 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:08.850210Z 67 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:13.008282Z 68 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:16.340264Z 69 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:18.715526Z 70 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:22.545844Z 71 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:25.456957Z 72 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:27.929696Z 73 [Note] Access denied for user 'root'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:31.857406Z 74 [Note] Access denied for user 'test'@'167.88.178.43' (using password: NO)
+2018-01-23T18:02:34.200006Z 75 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:36.903159Z 76 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:39.979834Z 77 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:42.478231Z 78 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:44.304842Z 79 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:47.401643Z 80 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:51.228029Z 81 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:53.281951Z 82 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:55.205049Z 83 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:02:58.480263Z 84 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:00.979859Z 85 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:02.981473Z 86 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:06.108328Z 87 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:09.409315Z 88 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:11.244354Z 89 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:15.068934Z 90 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:18.240836Z 91 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:20.206441Z 92 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:23.711522Z 93 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:27.163794Z 94 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:29.136956Z 95 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:32.041109Z 96 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:34.925084Z 97 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:37.629891Z 98 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:39.315547Z 99 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:42.879753Z 100 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:46.016632Z 101 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:48.031798Z 102 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:50.193614Z 103 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:53.583293Z 104 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:56.977684Z 105 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:03:58.680224Z 106 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:00.929608Z 107 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:03.681854Z 108 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:06.073807Z 109 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:08.115130Z 110 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:10.474123Z 111 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:13.143441Z 112 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:15.637528Z 113 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:17.596222Z 114 [Note] Access denied for user 'test'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:19.552750Z 115 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: NO)
+2018-01-23T18:04:22.241565Z 116 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:24.816668Z 117 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:26.560670Z 118 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:28.165198Z 119 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:31.464669Z 120 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:34.763152Z 121 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:37.113948Z 122 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:39.908452Z 123 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:42.952725Z 124 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:45.552756Z 125 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:47.209627Z 126 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:49.856831Z 127 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:52.259436Z 128 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:54.345401Z 129 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:56.285280Z 130 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:04:58.473814Z 131 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:00.771618Z 132 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:03.329186Z 133 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:05.409034Z 134 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:07.719252Z 135 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:11.254368Z 136 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:14.096046Z 137 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:15.794709Z 138 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:18.543215Z 139 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:21.336644Z 140 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:24.272791Z 141 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:25.906718Z 142 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:28.067951Z 143 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:31.180888Z 144 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:34.198552Z 145 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:36.011423Z 146 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:38.801266Z 147 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:41.822886Z 148 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:44.470071Z 149 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:46.373726Z 150 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:48.951930Z 151 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:51.108075Z 152 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:53.816057Z 153 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:55.478872Z 154 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:05:58.438955Z 155 [Note] Access denied for user 'admin'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:00.877541Z 156 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: NO)
+2018-01-23T18:06:02.853952Z 157 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:04.466939Z 158 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:07.646493Z 159 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:10.628651Z 160 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:13.260810Z 161 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:14.959736Z 162 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:16.619463Z 163 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:19.620042Z 164 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:22.367852Z 165 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:25.114159Z 166 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:26.504780Z 167 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:29.204311Z 168 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:31.468486Z 169 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:33.454394Z 170 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:35.743638Z 171 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:37.315172Z 172 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:40.032555Z 173 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:43.057788Z 174 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:46.707445Z 175 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:48.967054Z 176 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:51.643670Z 177 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:54.650268Z 178 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:06:57.394653Z 179 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:00.520534Z 180 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:02.641332Z 181 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:05.463831Z 182 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:07.034181Z 183 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:11.035136Z 184 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:15.257839Z 185 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:17.821517Z 186 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:20.822093Z 187 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:23.383663Z 188 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:25.953482Z 189 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:32.353808Z 190 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:35.624228Z 191 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:39.549507Z 192 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:43.312739Z 193 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:46.084062Z 194 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:50.357819Z 195 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:07:53.886261Z 196 [Note] Access denied for user 'mysq'@'167.88.178.43' (using password: YES)
+2018-01-23T18:18:58.362881Z 197 [Warning] IP address '222.186.50.187' could not be resolved: Этот хост неизвестен. 
+2018-01-23T18:18:58.561149Z 197 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:18:59.144760Z 198 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:18:59.731100Z 199 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:00.334293Z 200 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:00.961595Z 201 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:01.571721Z 202 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:02.175215Z 203 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:02.779282Z 204 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:03.386502Z 205 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:04.014878Z 206 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:04.643337Z 207 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:05.253286Z 208 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:05.885388Z 209 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:06.514605Z 210 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:07.120839Z 211 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:07.722872Z 212 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:08.350356Z 213 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:08.943636Z 214 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:09.535160Z 215 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:10.120316Z 216 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:10.730209Z 217 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:11.336031Z 218 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:11.916747Z 219 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:12.496440Z 220 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:13.104417Z 221 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:13.705958Z 222 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:14.317715Z 223 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:14.901966Z 224 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:15.514467Z 225 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:16.121959Z 226 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:16.731973Z 227 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:17.334942Z 228 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:17.961759Z 229 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:18.564892Z 230 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:19.165025Z 231 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T18:19:19.769414Z 232 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-23T19:01:18.288816Z 233 [Note] Aborted connection 233 to db: 'books_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2018-01-24T05:15:46.655524Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 36396108ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-24T06:09:51.886481Z 234 [Warning] IP address '116.196.112.178' could not be resolved: Этот хост неизвестен. 
+2018-01-24T06:09:52.239108Z 234 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:09:56.139799Z 235 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:04.982939Z 236 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:06.489911Z 237 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:06.978347Z 238 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:07.486254Z 239 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:07.973980Z 240 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:08.461113Z 241 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:10.469276Z 242 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:10:10.955983Z 243 [Note] Access denied for user 'root'@'116.196.112.178' (using password: YES)
+2018-01-24T06:13:09.212045Z 250 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:13:25.249572Z 251 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:13:33.007075Z 252 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:13:40.099355Z 253 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:13:51.380203Z 254 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:14:05.522902Z 255 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T06:14:18.193332Z 256 [Note] Access denied for user 'root'@'116.196.112.178' (using password: NO)
+2018-01-24T09:34:01.321279Z 257 [Note] Aborted connection 257 to db: 'books_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2018-01-24T10:35:55.314408Z 386 [Warning] IP address '222.186.172.44' could not be resolved: Этот хост неизвестен. 
+2018-01-24T10:35:55.615308Z 386 [Note] Access denied for user 'root'@'222.186.172.44' (using password: YES)
+2018-01-24T10:35:56.492598Z 387 [Note] Access denied for user 'root'@'222.186.172.44' (using password: YES)
+2018-01-24T10:35:57.279442Z 388 [Note] Access denied for user 'root'@'222.186.172.44' (using password: YES)
+2018-01-24T10:35:58.090779Z 389 [Note] Access denied for user 'root'@'222.186.172.44' (using password: YES)
+2018-01-24T10:35:58.889966Z 390 [Note] Access denied for user 'root'@'222.186.172.44' (using password: YES)
+2018-01-24T10:35:59.678676Z 391 [Note] Access denied for user 'root'@'222.186.172.44' (using password: NO)
+2018-01-24T10:36:00.492972Z 392 [Note] Access denied for user 'root'@'222.186.172.44' (using password: YES)
+2018-01-24T10:48:47.224859Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23007ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-24T14:07:53.182173Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10887487ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-01-24T14:27:23.811671Z 406 [Warning] IP address '222.186.172.57' could not be resolved: Этот хост неизвестен. 
+2018-01-24T14:27:24.073020Z 406 [Note] Access denied for user 'mysqld'@'222.186.172.57' (using password: YES)
+2018-01-24T14:45:46.889306Z 413 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:47.072617Z 413 [Note] Access denied for user 'root'@'111.67.198.232' (using password: NO)
+2018-01-24T14:45:47.600156Z 414 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:47.789116Z 414 [Note] Access denied for user 'root'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:48.150287Z 415 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:48.342717Z 415 [Note] Access denied for user 'root'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:48.705689Z 416 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:48.886356Z 416 [Note] Access denied for user 'root'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:49.265687Z 417 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:49.460597Z 417 [Note] Access denied for user 'root'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:49.857362Z 418 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:50.046337Z 418 [Note] Access denied for user 'root'@'111.67.198.232' (using password: NO)
+2018-01-24T14:45:50.402655Z 419 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:50.585021Z 419 [Note] Access denied for user 'root'@'111.67.198.232' (using password: NO)
+2018-01-24T14:45:50.960445Z 420 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:51.140978Z 420 [Note] Access denied for user 'mysql'@'111.67.198.232' (using password: NO)
+2018-01-24T14:45:51.502261Z 421 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:51.705564Z 421 [Note] Access denied for user 'mysql'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:52.082530Z 422 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:52.263798Z 422 [Note] Access denied for user 'mysql'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:52.905156Z 423 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:53.089558Z 423 [Note] Access denied for user 'mysql'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:53.462899Z 424 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:53.651048Z 424 [Note] Access denied for user 'mysql'@'111.67.198.232' (using password: YES)
+2018-01-24T14:45:54.005437Z 425 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-24T14:45:54.181191Z 425 [Note] Access denied for user 'mysql'@'111.67.198.232' (using password: NO)
+2018-01-24T15:39:09.254681Z 452 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-24T15:39:09.866861Z 453 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-24T15:39:10.454343Z 454 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-24T15:39:11.036327Z 455 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-24T15:39:11.646852Z 456 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-24T15:39:12.252751Z 457 [Note] Access denied for user 'root'@'222.186.50.187' (using password: YES)
+2018-01-24T17:13:50.554797Z 577 [Warning] IP address '222.186.174.91' could not be resolved: Этот хост неизвестен. 
+2018-01-24T17:13:50.818775Z 577 [Note] Access denied for user 'root'@'222.186.174.91' (using password: YES)
+2018-01-24T17:13:51.591228Z 578 [Note] Access denied for user 'root'@'222.186.174.91' (using password: YES)
+2018-01-24T17:13:52.402375Z 579 [Note] Access denied for user 'root'@'222.186.174.91' (using password: YES)
+2018-01-24T17:13:53.212482Z 580 [Note] Access denied for user 'root'@'222.186.174.91' (using password: YES)
+2018-01-24T17:13:54.011577Z 581 [Note] Access denied for user 'root'@'222.186.174.91' (using password: YES)
+2018-01-24T18:11:26.687454Z 401 [Note] Aborted connection 401 to db: 'books_database' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2018-01-24T19:33:10.591930Z 848 [Warning] IP address '125.77.29.24' could not be resolved: Этот хост неизвестен. 
+2018-01-24T19:33:10.873088Z 848 [Note] Access denied for user 'root'@'125.77.29.24' (using password: YES)
+2018-01-24T19:33:11.697316Z 849 [Note] Access denied for user 'root'@'125.77.29.24' (using password: NO)
+2018-01-24T19:33:12.540218Z 850 [Note] Access denied for user 'root'@'125.77.29.24' (using password: YES)
+2018-01-24T19:33:13.382951Z 851 [Note] Access denied for user 'root'@'125.77.29.24' (using password: YES)
+2018-01-24T19:33:14.204373Z 852 [Note] Access denied for user 'root'@'125.77.29.24' (using password: YES)
+2018-01-24T22:31:05.113270Z 899 [Note] Access denied for user 'rppt'@'localhost' (using password: NO)
+2018-01-24T22:31:10.289603Z 900 [Note] Access denied for user 'rppt'@'localhost' (using password: YES)
+2018-01-25T01:10:56.510337Z 990 [Warning] IP address '111.67.198.232' could not be resolved: Обычно - это временная ошибка, возникающая во время разрешения имени узла, и означающая, что локальный сервер не получил ответа от полномочного сервера. 
+2018-01-25T01:10:56.757095Z 990 [Note] Access denied for user 'root'@'111.67.198.232' (using password: NO)
+2018-01-25T04:00:19.047613Z 1002 [Note] Aborted connection 1002 to db: 'books_database' user: 'root' host: 'localhost' (Got an error reading communication packets)

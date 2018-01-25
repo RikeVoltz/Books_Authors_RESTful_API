@@ -1,0 +1,8 @@
+AddDefaultCharset utf-8
+RewriteEngine on
+RewriteRule ^api/authors/$ api/authors_api.php
+RewriteRule ^api/books/$ api/books_api.php
+RewriteRule ^api/books/ISBN/([0-9_-]+)$ api/books_api.php?ISBN=$1
+RewriteRule ^api/books/author/([0-9]+)$ api/books_api.php?author_id=$1
+RewriteRule ^api/authors/([0-9]+)$ api/authors_api.php?id=$1
+RewriteRule ^api/books/([0-9]+)$ api/books_api.php?id=$1
