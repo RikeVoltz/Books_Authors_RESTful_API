@@ -1,0 +1,432 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "This is a simple authors and books database",
+    "version" : "1.0.0",
+    "title" : "Authors and books database"
+  },
+  "host" : "stand-up-binder.000webhostapp.com",
+  "basePath" : "/api",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/authors/" : {
+      "get" : {
+        "tags" : [ "author" ],
+        "summary" : "Get all authors",
+        "description" : "Returns all authors",
+        "operationId" : "get_all_authors",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Data not found"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "author" ],
+        "summary" : "Add a new author",
+        "description" : "Add a new author",
+        "operationId" : "post_author",
+        "consumes" : [ "application/json", "application/xml" ],
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "description" : "Author that needs to be added",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/body"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "409" : {
+            "description" : "Conflict.This author already exists"
+          }
+        }
+      }
+    },
+    "/authors/{id}" : {
+      "get" : {
+        "tags" : [ "author" ],
+        "summary" : "Find author by ID",
+        "description" : "Returns a single author by ID",
+        "operationId" : "get_by_ID",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "ID of author to return",
+          "required" : true,
+          "type" : "integer",
+          "format" : "int64"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Author not found"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "author" ],
+        "summary" : "Update an existing author",
+        "description" : "Change existing author",
+        "operationId" : "put_author",
+        "consumes" : [ "application/json", "application/xml" ],
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "Author that needs to be added",
+          "required" : true,
+          "type" : "integer"
+        }, {
+          "in" : "body",
+          "name" : "body",
+          "description" : "Author that needs to be added",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/body_1"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Author not found"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "author" ],
+        "summary" : "Deletes an author",
+        "description" : "Delete an author",
+        "operationId" : "delete_author",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "Author id to delete",
+          "required" : true,
+          "type" : "integer"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Author not found"
+          }
+        }
+      }
+    },
+    "/books/{id}" : {
+      "get" : {
+        "tags" : [ "book" ],
+        "summary" : "Find book by ID",
+        "description" : "Returns a single book by ID",
+        "operationId" : "get_book_by_ID",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "ID of book to return",
+          "required" : true,
+          "type" : "integer"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Book not found"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "book" ],
+        "summary" : "Update an existing book",
+        "description" : "Change existing book",
+        "operationId" : "put_book",
+        "consumes" : [ "application/json", "application/xml" ],
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "Book that needs to be changed",
+          "required" : true,
+          "type" : "integer"
+        }, {
+          "in" : "body",
+          "name" : "body",
+          "description" : "Book inforamtion that needs to be changed",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/body_2"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Book not found"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "book" ],
+        "summary" : "Deletes a book",
+        "description" : "Delete a book",
+        "operationId" : "delete_book",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "Book id to delete",
+          "required" : true,
+          "type" : "integer"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Book not found"
+          }
+        }
+      }
+    },
+    "/books/" : {
+      "get" : {
+        "tags" : [ "book" ],
+        "summary" : "Get all books",
+        "description" : "Returns all books",
+        "operationId" : "get_all_books",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Data not found"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "book" ],
+        "summary" : "Add a new book",
+        "description" : "Add a new book",
+        "operationId" : "post_book",
+        "consumes" : [ "application/json", "application/xml" ],
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "description" : "Author that needs to be added",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/body_3"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "409" : {
+            "description" : "Conflict.This book already exists"
+          }
+        }
+      }
+    },
+    "/books/ISBN/{ISBN}" : {
+      "get" : {
+        "tags" : [ "book" ],
+        "summary" : "Find book by ISBN",
+        "description" : "Returns a single book",
+        "operationId" : "get_book_by_ISBN",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "ISBN",
+          "in" : "path",
+          "description" : "ISBN of book to return",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Book not found"
+          }
+        }
+      }
+    },
+    "/books/author/{author_id}" : {
+      "get" : {
+        "tags" : [ "book" ],
+        "summary" : "Find book by author_id",
+        "description" : "Returns an array of books",
+        "operationId" : "get_by_author",
+        "produces" : [ "application/xml", "application/json" ],
+        "parameters" : [ {
+          "name" : "author_id",
+          "in" : "path",
+          "description" : "author_id of book to return",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Ok"
+          },
+          "404" : {
+            "description" : "Books not found"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Author" : {
+      "type" : "object",
+      "required" : [ "id", "midname", "name", "surname" ],
+      "properties" : {
+        "id" : {
+          "type" : "integer"
+        },
+        "name" : {
+          "type" : "string",
+          "example" : "Alexander"
+        },
+        "midname" : {
+          "type" : "string",
+          "example" : "Sergeevich"
+        },
+        "surname" : {
+          "type" : "string",
+          "example" : "Pushkin"
+        }
+      },
+      "xml" : {
+        "name" : "Author"
+      }
+    },
+    "Book" : {
+      "type" : "object",
+      "required" : [ "ISBN", "author_id", "id", "title", "year" ],
+      "properties" : {
+        "id" : {
+          "type" : "integer"
+        },
+        "title" : {
+          "type" : "string",
+          "example" : "Master i Margarita"
+        },
+        "author_id" : {
+          "type" : "integer",
+          "example" : 3
+        },
+        "ISBN" : {
+          "type" : "string",
+          "example" : "978-5-699-728"
+        },
+        "year" : {
+          "type" : "integer",
+          "example" : 1820
+        }
+      },
+      "xml" : {
+        "name" : "Book"
+      }
+    },
+    "body" : {
+      "type" : "object",
+      "properties" : {
+        "name" : {
+          "type" : "string",
+          "example" : "Alexander"
+        },
+        "midname" : {
+          "type" : "string",
+          "example" : "Sergeevich"
+        },
+        "surname" : {
+          "type" : "string",
+          "example" : "Pushkin"
+        }
+      }
+    },
+    "body_1" : {
+      "type" : "object",
+      "properties" : {
+        "name" : {
+          "type" : "string",
+          "example" : "Alexander"
+        },
+        "midname" : {
+          "type" : "string",
+          "example" : "Sergeevich"
+        },
+        "surname" : {
+          "type" : "string",
+          "example" : "Pushkin"
+        }
+      }
+    },
+    "body_2" : {
+      "type" : "object",
+      "properties" : {
+        "title" : {
+          "type" : "string",
+          "example" : "Master i Margarita"
+        },
+        "author_id" : {
+          "type" : "integer",
+          "example" : 3
+        },
+        "ISBN" : {
+          "type" : "string",
+          "example" : "978-5-699-728"
+        },
+        "year" : {
+          "type" : "integer",
+          "example" : 1820
+        }
+      }
+    },
+    "body_3" : {
+      "type" : "object",
+      "properties" : {
+        "title" : {
+          "type" : "string",
+          "example" : "Master i Margarita"
+        },
+        "author_id" : {
+          "type" : "integer",
+          "example" : 3
+        },
+        "ISBN" : {
+          "type" : "string",
+          "example" : "978-5-699-728"
+        },
+        "year" : {
+          "type" : "integer",
+          "example" : 1820
+        }
+      }
+    }
+  }
+}
