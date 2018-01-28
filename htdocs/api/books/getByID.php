@@ -9,7 +9,7 @@ if ($book->id) {
 } else {
     header("Status: 404 Not Found");
     header("Content-Type: text/html");
-    echo "<h1>404 Book not found</h1>";    
+    require_once $_SERVER['DOCUMENT_ROOT']."/errors/404.html";       
 }
 unset($book);
 ?>

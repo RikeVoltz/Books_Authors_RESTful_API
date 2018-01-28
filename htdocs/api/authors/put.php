@@ -6,7 +6,7 @@ if ($result)
     header("Status: 200 Ok");
 else {
     header("Status: 404 Not Found");
-    echo "<h1>404 Author not found</h1>";    
+    require_once $_SERVER['DOCUMENT_ROOT']."/errors/404.html";         
 }
 unset($author);
 ?>

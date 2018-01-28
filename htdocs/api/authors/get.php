@@ -2,7 +2,8 @@
 header("Charset=UTF-8");
 $author=new Author();
 $result=$author->get();
-if ($result) {
+$json[]=$result->fetch_assoc();
+if ($json[0]) {
     header("Status: 200 Ok");
     header("Content-Type: application/json");
     while ($author=$result->fetch_assoc())
@@ -11,7 +12,7 @@ if ($result) {
 } else {
     header("Status: 404 Not Found");
     header("Content-Type: text/html");
-    echo "<h1>404 Data not found</h1>";    
+    require_once $_SERVER['DOCUMENT_ROOT']."/errors/404.html";         
 }
 unset($author);
 ?>

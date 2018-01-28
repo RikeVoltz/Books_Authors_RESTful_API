@@ -4,3 +4,5 @@ RewriteRule ^api/([a-z]+)/$ api/api.php?page=$1
 RewriteRule ^api/([a-z]+)/([0-9]+)$ api/api.php?page=$1&id=$2
 RewriteRule ^api/([a-z]+)/ISBN/([0-9_-]+)$ api/api.php?page=$1&ISBN=$2
 RewriteRule ^api/([a-z]+)/author/([0-9]+)$ api/api.php?page=$1&author_id=$2
+ErrorDocument 404 /errors/404.html
+ErrorDocument 409 /errors/409.html

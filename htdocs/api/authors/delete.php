@@ -7,10 +7,10 @@ if ($result['isDeleted'])
     header("Status: 200 Ok");
 elseif ($result['isInTable']) {
     header("Status: 409 Conflict");
-    echo "<h1>409 Conflct. Author has books.</h1>";
+    require_once $_SERVER['DOCUMENT_ROOT']."/errors/409.html";     
 } else {
     header("Status: 404 Not Found");
-    echo "<h1>404 Author not found</h1>";    
+    require_once $_SERVER['DOCUMENT_ROOT']."/errors/404.html";         
 }
 unset($author);
 ?>

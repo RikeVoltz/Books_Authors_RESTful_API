@@ -6,7 +6,7 @@ if ($result)
     header("Status: 200 Ok");
 else {
     header("Status: 409 Conflict");
-    echo "<h1>409 Conflict. This author already exists</h1>";    
+    require_once $_SERVER['DOCUMENT_ROOT']."/errors/409.html";         
 }
 unset($author);
 ?>
